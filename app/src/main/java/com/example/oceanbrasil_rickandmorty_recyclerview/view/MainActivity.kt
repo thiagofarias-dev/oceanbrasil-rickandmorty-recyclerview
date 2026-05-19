@@ -28,17 +28,20 @@ class MainActivity : AppCompatActivity() {
             Personagem(
                 nome = "Rick Sanchez",
                 imagem = android.R.drawable.ic_dialog_info,
-                description = "Descrição do Rick Sanchez"
+                description = "Descrição do Rick Sanchez",
+                specie = "Humano"
             ),
             Personagem(
                 nome = "Morty Smith",
                 imagem = android.R.drawable.ic_dialog_alert,
-                description = "Descrição do Morty Smith"
+                description = "Descrição do Morty Smith",
+                specie = "Humano"
             ),
         Personagem(
             nome = "Summer Smith",
             imagem = android.R.drawable.ic_dialog_dialer,
-            description = "Descrição do Summer Smith"
+            description = "Descrição do Summer Smith",
+            specie = "Humano"
         )
     )
         // Criar e definir o layout manager
