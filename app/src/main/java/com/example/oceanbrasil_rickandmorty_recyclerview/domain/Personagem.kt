@@ -4,5 +4,7 @@ data class Personagem (
     val nome: String,
     val imagem: Int,
     val description: String,
-    val specie: String
+    val specie: String,
+    val status: String,
+    val gender: String
 )
